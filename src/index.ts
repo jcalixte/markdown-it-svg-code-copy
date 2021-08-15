@@ -2,7 +2,7 @@ import Clipboard from 'clipboard'
 
 const PLUGIN_CLASS = 'markdown-it-svg-code-copy'
 
-new Clipboard(PLUGIN_CLASS)
+new Clipboard(`.${PLUGIN_CLASS}`)
 
 interface Options {
   svg: string
